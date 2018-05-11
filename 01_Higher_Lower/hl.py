@@ -1,4 +1,4 @@
-print('Enter a new binary digit: ')
+print('Enter a new awesome binary digit: ')
 b = input()
 i = 0
 
