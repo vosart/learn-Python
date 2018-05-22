@@ -2,12 +2,12 @@
 import random
 
 print('Enter a digit 1-10: ')
-result = False
+result = True
 pc_digit = random.randint(1, 10)
 
 try:
 
-    while result != True:
+    while result:
         user_digit = int(input())
         if user_digit > pc_digit:
             print('less')
@@ -15,7 +15,7 @@ try:
             print('more')
         else:
             print('BINGO!')
-            result = True
+            result = False
 except ValueError:
     print("It's not a digit")
 input()
