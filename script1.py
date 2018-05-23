@@ -1,4 +1,6 @@
-myfile = open('myfile.txt')
-for line in myfile:
-    print(line, end='')
+while True:
+    reply = input("Enter something: hi")
+    if reply == "stop": break
+    print(reply.upper())
+
 
